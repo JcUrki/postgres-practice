@@ -1,0 +1,29 @@
+-- CREATE TABLE usuarios(
+--  nombre VARCHAR(40),
+--     edad INT,
+--     descripcion TEXT,
+--     id_usuario SERIAL,
+--     PRIMARY KEY (id_usuario) 
+-- );
+
+-- ALTER TABLE usuarios
+-- ADD fecha DATE DEFAULT CURRENT_DATE;
+
+-- INSERT INTO usuarios (nombre, edad, descripcion)
+-- VALUES (
+--     'Chiharu',
+--     40,
+--     'Mujer'
+-- );
+
+-- UPDATE usuarios
+-- 	SET nombre = 'Marta'
+-- 	WHERE id_usuario = 3;
+
+-- DELETE FROM usuarios
+-- WHERE id_usuario = 2;
+
+SELECT *
+FROM usuarios; 
+
+

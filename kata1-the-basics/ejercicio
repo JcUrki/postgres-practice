@@ -1,0 +1,17 @@
+-- CREATE TABLE tareas(
+-- 	id_tarea SERIAL PRIMARY KEY,
+-- 	id_usuario INT NOT NULL,
+-- 	titulo VARCHAR(50) NOT NULL,
+-- 	fecha DATE DEFAULT CURRENT_DATE,
+-- 	estado BOOLEAN DEFAULT false,
+-- 	FOREIGN KEY	(id_usuario) REFERENCES usuarios(id_usuario)
+-- );
+
+-- INSERT INTO tareas(titulo, id_usuario)
+-- VALUES (
+--     'tiene que hacer un proyecto',
+--     1
+-- );
+
+SELECT * FROM tareas;
+
